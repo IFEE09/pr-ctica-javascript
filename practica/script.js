@@ -15,6 +15,11 @@ function sumar(){
     document.getElementById('resultado').value = resultado;
 }
 
+function sinClases() {
+    let agregar = document.getElementById('agregar');
+    agregar.className = 'ninguna';
+}
+
 function rojo(){
     let agregar = document.getElementById('agregar');
     agregar.className = '';
@@ -33,9 +38,16 @@ function morado(){
     agregar.classList.add('morado');
 }
 
-function sinClases() {
+function agrandar(){
     let agregar = document.getElementById('agregar');
     agregar.className = '';
+    agregar.classList.add('agrandar')
+}
+
+function minimizar(){
+    let agregar = document.getElementById('agregar');
+    agregar.className = '';
+    agregar.classList.add('minimizar')
 }
 
 function retrasoDosSegundos(){ 

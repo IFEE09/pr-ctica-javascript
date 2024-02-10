@@ -1,11 +1,28 @@
+.ninguna {
+    transition: 0.3s;
+}
+
 .rojo {
+    transition: 0.3s;
     color: red;
 }
 
 .azul {
+    transition: 0.3s;
     color: blue;
 }
 
 .morado {
+    transition: 0.3s;
     color: purple;
+}
+
+.agrandar {
+    transition: 0.3s;
+    font-size: 30px;
+}
+
+.minimizar {
+    transition: 0.3s;
+    font-size: 12px;
 }
