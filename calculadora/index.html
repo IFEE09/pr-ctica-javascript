@@ -8,12 +8,15 @@
 </head>
 <body>
     
-    <form action="">
-        <input type="number" id="numero1" placeholder="número 1"> +
-        <input type="number" id="numero2" placeholder="número 2"> 
-        <button onclick="sumar()">=</button>
-        <input type="number" id="resultado" placeholder="resultado">
-    </form>
+    <center style="margin-top: 30px;">
+        <h3>Esto es un calculadora</h3>
+        <form action="">
+            <input type="number" id="numero1" placeholder="número 1"> +
+            <input type="number" id="numero2" placeholder="número 2"> 
+            <input onclick="sumar()" type="button" value="="></input>
+            <input type="number" id="resultado" placeholder="resultado" readonly>
+        </form>
+    </center>
 
     <script src="./script.js"></script>
 </body>
