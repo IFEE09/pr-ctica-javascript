@@ -1,5 +1,5 @@
 
-function sumar() {
+function sumar(){
 
     //proceso para sumar
     let numero1 = document.getElementById('numero1').value;
@@ -10,7 +10,30 @@ function sumar() {
     console.log(numero1);
     console.log(numero2);
     let resultado = numero1 + numero2;
-    
+
     //Agregando el valor en el input del html 
     document.getElementById('resultado').value = resultado;
+}
+
+function rojo(){
+    let agregar = document.getElementById('agregar');
+    agregar.className = '';
+    agregar.classList.add('rojo');
+}
+
+function azul(){
+    let agregar = document.getElementById('agregar');
+    agregar.className = '';
+    agregar.classList.add('azul');
+}
+
+function morado(){
+    let agregar = document.getElementById('agregar');
+    agregar.className = '';
+    agregar.classList.add('morado');
+}
+
+function sinClases() {
+    let agregar = document.getElementById('agregar');
+    agregar.className = '';
 }
