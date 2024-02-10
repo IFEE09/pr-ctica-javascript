@@ -37,3 +37,10 @@ function sinClases() {
     let agregar = document.getElementById('agregar');
     agregar.className = '';
 }
+
+function retrasoDosSegundos(){ 
+    let texto = document.getElementById('texto').value;
+    setTimeout( function() {
+        alert("Escribiste: " + texto);
+    }, 3000);
+}
