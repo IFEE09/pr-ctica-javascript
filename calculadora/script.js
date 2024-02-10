@@ -11,5 +11,6 @@ function sumar() {
     console.log(numero2);
     let resultado = numero1 + numero2;
 
+    //Agregando el valor en el input del html 
     document.getElementById('resultado').value = resultado;
 }
