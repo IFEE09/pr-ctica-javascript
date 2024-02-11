@@ -52,7 +52,9 @@ function minimizar(){
 
 function retrasoDosSegundos(){ 
     let texto = document.getElementById('texto').value;
+    document.getElementById('spinner').style.display = "block";
     setTimeout( function() {
+        document.getElementById('spinner').style.display = "none";
         alert("Escribiste: " + texto);
     }, 3000);
 }
