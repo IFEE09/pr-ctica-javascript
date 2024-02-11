@@ -55,6 +55,8 @@ function retrasoDosSegundos(){
     document.getElementById('spinner').style.display = "block";
     setTimeout( function() {
         document.getElementById('spinner').style.display = "none";
+    }, 1981);
+    setTimeout( function() {
         alert("Escribiste: " + texto);
-    }, 3000);
+    }, 2000);
 }
